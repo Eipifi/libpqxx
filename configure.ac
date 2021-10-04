@@ -290,7 +290,7 @@ AC_MSG_RESULT($span)
 
 # Check for [[likely]] and [[unlikely]] attributes.
 AC_MSG_CHECKING([attributes "likely" and "unlikely".])
-likely=yes
+likely=no
 #AC_COMPILE_IFELSE(
 #	[read_test(likely.cxx)],
 #	AC_DEFINE([PQXX_HAVE_LIKELY], 1, [Define if likely & unlikely work.]),
