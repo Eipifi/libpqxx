@@ -8,14 +8,7 @@
 
 #include <iostream>
 
-#if __has_include(<filesystem>)
-#  include <filesystem>
-#endif
-
-
 int main()
 {
-#if __has_include(<filesystem>)
-  std::cout << std::filesystem::path{"foo.bar"}.c_str() << '\n';
-#endif
+  std::cout << "foobar" << std::endl;
 }
