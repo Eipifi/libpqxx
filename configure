@@ -18508,7 +18508,7 @@ $as_echo "$have_pq_pipeline" >&6; }
 { $as_echo "$as_me:${as_lineno-$LINENO}: checking whether we need a link option for <filesystem> support" >&5
 $as_echo_n "checking whether we need a link option for <filesystem> support... " >&6; }
 LIBS_SAVE="$LIBS"
-found_fslib=no
+found_fslib=yes
 for l in '' '-lstdc++fs' '-lc++fs'
 do
 	if test "$found_fslib" != "yes"
